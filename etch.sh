@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Ensure the source file exists
-if [ ! -f "sources/heart_sutra.bin" ]; then
-    echo "Error: sources/heart_sutra.bin not found."
+if [ ! -f "output.bin" ]; then
+    echo "Error: output.bin not found."
     exit 1
 fi
 
