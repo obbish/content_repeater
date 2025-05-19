@@ -17,7 +17,7 @@ while :; do
     # This 'while cat ...' loop will terminate (and the subshell will exit)
     # when 'cat' fails, e.g., due to SIGPIPE after dd closes the pipe.
     (
-        while cat sources/heart_sutra.bin; do
+        while cat output.bin; do
             # The colon ':' is a shell no-op (does nothing).
             # This loop continues as long as 'cat' exits successfully.
             :
