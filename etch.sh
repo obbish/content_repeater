@@ -24,7 +24,7 @@ while :; do
         done
         # You can add a log here to see when the cat-loop subshell exits
         # echo "$(date): Cat loop subshell finished." >&2
-    ) | sudo dd of=/dev/sdb bs=1048576 status=progress count=1907729 iflag=fullblock oflag=direct conv=fdatasync
+    ) | sudo dd of=/dev/sda bs=1548288 status=progress count=161507 iflag=fullblock oflag=direct conv=fdatasync
     # Using count=4 for debugging as per your example.
     # Remember to change '/dev/sda' and 'count' back to your original values for production.
 
